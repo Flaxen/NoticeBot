@@ -1,0 +1,256 @@
+!!python/object:__main__.User
+name: "n\xE5gon"
+subbedChannels: [general, postnord, bots]
+userID: &id005 !!python/object/new:discord.member.Member
+  state: !!python/tuple
+  - null
+  - avatar: 3dfc11f42771d58188d171a02c4ad5ae
+    bot: false
+    discriminator: '7392'
+    game: null
+    id: '174602020672503808'
+    joined_at: 2017-08-18 17:27:49.380000
+    name: Flaxen
+    nick: null
+    roles:
+    - &id004 !!python/object/new:discord.role.Role
+      state: !!python/tuple
+      - null
+      - color: &id001 !!python/object/new:discord.colour.Colour
+          state: !!python/tuple
+          - null
+          - {value: 0}
+        colour: *id001
+        hoist: false
+        id: '348156043458641921'
+        managed: false
+        mentionable: false
+        name: '@everyone'
+        permissions: !!python/object/new:discord.permissions.Permissions
+          state: !!python/tuple
+          - null
+          - {value: 104324161}
+        position: 0
+        server: &id002 !!python/object/new:discord.server.Server
+          state: !!python/tuple
+          - null
+          - _channels:
+              '348156044003770370': !!python/object/new:discord.channel.Channel
+                state: !!python/tuple
+                - null
+                - _permission_overwrites:
+                  - !!python/object/new:discord.channel.Overwrites ['348156043458641921',
+                    805829713, 0, role]
+                  - !!python/object/new:discord.channel.Overwrites ['522702514731352064',
+                    0, 0, role]
+                  - !!python/object/new:discord.channel.Overwrites ['380320441530580993',
+                    805829713, 0, member]
+                  bitrate: null
+                  id: '348156044003770370'
+                  is_private: false
+                  name: general
+                  position: 0
+                  server: *id002
+                  topic: null
+                  type: &id003 !!python/object/apply:discord.enums.ChannelType [0]
+                  user_limit: null
+                  voice_members: []
+              '348156044003770371': !!python/object/new:discord.channel.Channel
+                state: !!python/tuple
+                - null
+                - _permission_overwrites: []
+                  bitrate: 64000
+                  id: '348156044003770371'
+                  is_private: false
+                  name: General
+                  position: 0
+                  server: *id002
+                  topic: null
+                  type: !!python/object/apply:discord.enums.ChannelType [2]
+                  user_limit: 0
+                  voice_members: []
+              '502371662981890058': !!python/object/new:discord.channel.Channel
+                state: !!python/tuple
+                - null
+                - _permission_overwrites: []
+                  bitrate: null
+                  id: '502371662981890058'
+                  is_private: false
+                  name: renskrivet
+                  position: 1
+                  server: *id002
+                  topic: null
+                  type: *id003
+                  user_limit: null
+                  voice_members: []
+            _default_role: *id004
+            _member_count: 6
+            _members:
+              '174602020672503808': *id005
+              '348155196511354880': !!python/object/new:discord.member.Member
+                state: !!python/tuple
+                - null
+                - avatar: 8d940e4ea4f9eebde9d25e55f5f9172c
+                  bot: true
+                  discriminator: '1681'
+                  game: null
+                  id: '348155196511354880'
+                  joined_at: 2017-08-18 17:31:00.710000
+                  name: Bot-Bot
+                  nick: null
+                  roles:
+                  - *id004
+                  - &id007 !!python/object/new:discord.role.Role
+                    state: !!python/tuple
+                    - null
+                    - color: &id006 !!python/object/new:discord.colour.Colour
+                        state: !!python/tuple
+                        - null
+                        - {value: 0}
+                      colour: *id006
+                      hoist: false
+                      id: '522423108284579859'
+                      managed: false
+                      mentionable: false
+                      name: gammal bot
+                      permissions: !!python/object/new:discord.permissions.Permissions
+                        state: !!python/tuple
+                        - null
+                        - {value: 104324161}
+                      position: 2
+                      server: *id002
+                  server: *id002
+                  status: &id008 !!python/object/apply:discord.enums.Status [offline]
+                  voice: !!python/object/new:discord.member.VoiceState
+                    state: !!python/tuple
+                    - null
+                    - {deaf: false, is_afk: false, mute: false, self_deaf: false,
+                      self_mute: false, session_id: null, voice_channel: null}
+              '380320441530580993': !!python/object/new:discord.member.Member
+                state: !!python/tuple
+                - null
+                - avatar: 0094b3c056a4e43e9a500fe90418c077
+                  bot: true
+                  discriminator: '6102'
+                  game: null
+                  id: '380320441530580993'
+                  joined_at: 2017-11-15 12:47:03.115000
+                  name: Meh-Bot
+                  nick: null
+                  roles:
+                  - *id004
+                  - *id007
+                  server: *id002
+                  status: *id008
+                  voice: !!python/object/new:discord.member.VoiceState
+                    state: !!python/tuple
+                    - null
+                    - {deaf: false, is_afk: false, mute: false, self_deaf: false,
+                      self_mute: false, session_id: null, voice_channel: null}
+              '521717351264026644': !!python/object/new:discord.member.Member
+                state: !!python/tuple
+                - null
+                - avatar: 67af27a790e7d1310c6fe5e81d679e91
+                  bot: true
+                  discriminator: '7892'
+                  game: null
+                  id: '521717351264026644'
+                  joined_at: 2018-12-11 10:24:11.837000
+                  name: Karma Bot
+                  nick: null
+                  roles:
+                  - *id004
+                  server: *id002
+                  status: *id008
+                  voice: !!python/object/new:discord.member.VoiceState
+                    state: !!python/tuple
+                    - null
+                    - {deaf: false, is_afk: false, mute: false, self_deaf: false,
+                      self_mute: false, session_id: null, voice_channel: null}
+              '522407680862846988': !!python/object/new:discord.member.Member
+                state: !!python/tuple
+                - null
+                - avatar: 62a10d0425330fb56f2086d2c955660c
+                  bot: true
+                  discriminator: 0901
+                  game: null
+                  id: '522407680862846988'
+                  joined_at: 2018-12-12 14:41:21.207000
+                  name: Notice Bot
+                  nick: null
+                  roles:
+                  - *id004
+                  - &id010 !!python/object/new:discord.role.Role
+                    state: !!python/tuple
+                    - null
+                    - color: &id009 !!python/object/new:discord.colour.Colour
+                        state: !!python/tuple
+                        - null
+                        - {value: 0}
+                      colour: *id009
+                      hoist: false
+                      id: '522702514731352064'
+                      managed: false
+                      mentionable: false
+                      name: bot
+                      permissions: !!python/object/new:discord.permissions.Permissions
+                        state: !!python/tuple
+                        - null
+                        - {value: 104255553}
+                      position: 1
+                      server: *id002
+                  server: *id002
+                  status: &id011 !!python/object/apply:discord.enums.Status [online]
+                  voice: !!python/object/new:discord.member.VoiceState
+                    state: !!python/tuple
+                    - null
+                    - {deaf: false, is_afk: false, mute: false, self_deaf: false,
+                      self_mute: false, session_id: null, voice_channel: null}
+              '522423460408852480': !!python/object/new:discord.member.Member
+                state: !!python/tuple
+                - null
+                - avatar: 1107299f6d79b95fddcc4385464213b9
+                  bot: true
+                  discriminator: '3778'
+                  game: null
+                  id: '522423460408852480'
+                  joined_at: 2018-12-12 14:45:35.463000
+                  name: Mys Bot
+                  nick: null
+                  roles:
+                  - *id004
+                  - *id010
+                  server: *id002
+                  status: *id011
+                  voice: !!python/object/new:discord.member.VoiceState
+                    state: !!python/tuple
+                    - null
+                    - {deaf: false, is_afk: false, mute: false, self_deaf: false,
+                      self_mute: false, session_id: null, voice_channel: null}
+            afk_channel: null
+            afk_timeout: 300
+            emojis: []
+            features: []
+            icon: e8005bcccea59b39aac7a0fd51aa9b24
+            id: '348156043458641921'
+            large: false
+            mfa_level: 0
+            name: Bots
+            owner: *id005
+            owner_id: '174602020672503808'
+            region: !!python/object/apply:discord.enums.ServerRegion [eu-central]
+            roles:
+            - *id004
+            - *id007
+            - *id010
+            splash: null
+            unavailable: false
+            verification_level: !!python/object/apply:discord.enums.VerificationLevel [
+              0]
+    server: *id002
+    status: *id011
+    voice: !!python/object/new:discord.member.VoiceState
+      state: !!python/tuple
+      - null
+      - {deaf: false, is_afk: false, mute: false, self_deaf: false, self_mute: false,
+        session_id: null, voice_channel: null}
