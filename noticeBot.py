@@ -21,7 +21,7 @@ async def on_message(message):
 
         # output commands list
         if message.content.lower() == '!noticebot'.lower():
-            msg = 'these are my commands: !noticeBot, !noticeBot clearDB, !noticeBot sub, !noticeBot unsub'.format(message)
+            msg = 'these are my commands: !noticeBot, !noticeBot sub, !noticeBot unsub, !noticeBot clearDB, !noticeBot announce'.format(message)
             await client.send_message(message.channel, msg)
 
         # clears database
@@ -68,13 +68,13 @@ async def on_message(message):
                 msg = 'enter channel ID'.format(message)
                 await client.send_message(message.channel, msg)
 
-                msg = await client.wait_for_message(author=message.author)
+                msg = await client.wait_for_message(author=message.author, channel=message.channel)
                 channelID = msg.content
 
                 msg = 'enter message'.format(message)
                 await client.send_message(message.channel, msg)
 
-                msg = await client.wait_for_message(author=message.author)
+                msg = await client.wait_for_message(author=message.author, channel=message.channel)
                 announceMSG = msg.content
 
                 msg = ('Sending message to channel with ID ' + channelID).format(message)
